@@ -86,7 +86,7 @@ const Projects = () => {
 
           {/* ROW 2 */}
           <Project
-            title='Dashboard'
+            title='Dashboard App'
             description='Full Stack Dashboard built with React on the front-end and MongoDB on the back-end'
             link='https://admin-frontend-fq6a.onrender.com '
           />
