@@ -74,12 +74,12 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
           <Project
-            title='Movie App'
+            title='Cine App'
             description='Movie App built with React Native and TMDB API'
             link='https://github.com/josiehandeveloper/movieApp'
           />
           <Project
-            title='Music Player'
+            title='Music App'
             description='Music App built with React, Redux, and Shazam API'
             link='https://lyriks-onthego.netlify.app/'
           />
