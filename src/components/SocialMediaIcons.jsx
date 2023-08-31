@@ -7,7 +7,23 @@ const SocialMediaIcons = () => {
         target='_blank'
         rel='noreferrer'
       >
-        <img alt='linkedin-link' src='../assets/linkedin.png' />
+        <i className='fab fa-linkedin-in' color='white'></i>
+      </a>
+      <a
+        className='link'
+        href='https://github.com/josiehandeveloper'
+        target='_blank'
+        rel='noreferrer'
+      >
+        <i className='fab fa-github'></i>
+      </a>
+      <a
+        className='link'
+        href='https://docs.google.com/viewer?url=https://docs.google.com/document/d/1aSMDBButRYQEdWI7NGBPORGpolytGyysqtswP2vPVoQ/export?format=pdf'
+        target='_blank'
+        rel='noreferrer'
+      >
+        <i className='far fa-file-alt' color='white'></i>
       </a>
     </div>
   );
