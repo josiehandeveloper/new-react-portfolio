@@ -1,0 +1,76 @@
+.introContainer {
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  /* text-align: center; */
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  padding: 3rem;
+  position: relative;
+}
+
+.profileImage {
+  display: flex;
+  justify-content: center;
+  height: 20rem;
+  /* display: flex; 
+  position: absolute;*/
+  /* padding: 5rem 4rem 0rem 0rem; */
+  /* top: 0rem;
+  right: 7rem; */
+  /* right: 0; 
+  z-index: -1;
+  /* object-fit: cover; */
+}
+
+.introContent {
+  display: flex;
+  /* height: 100vh;
+  width: 100vw; */
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 300;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.introParagraph {
+  font-size: medium;
+  font-size: 1.7rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+.btn {
+  background: white;
+  margin: 1rem 0;
+  padding: 0.75rem 2rem 0.75rem 2rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 720px) {
+  .introContainer {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    position: relative;
+  }
+
+  .profileImage {
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+    width: 20rem;
+  }
+}

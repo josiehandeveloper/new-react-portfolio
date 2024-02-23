@@ -1,0 +1,215 @@
+.projectsContainer {
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.peppContainer {
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+.peppImages {
+  display: flex;
+}
+
+.peppHome {
+  height: 25rem;
+  padding: 10px;
+}
+
+.peppMaps {
+  height: 25rem;
+  padding: 10px;
+}
+
+.peppAnnouncements {
+  height: 25rem;
+  padding: 10px;
+}
+
+.peppDescription {
+  padding: 20px;
+}
+
+.peppContent {
+  padding: 20px 0 20px 0;
+}
+
+.playStoreIcon {
+  padding: 20px;
+}
+
+.appStoreIcon {
+  padding: 20px;
+}
+
+.netflixContainer {
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  /* flex-direction: colu; */
+  align-items: center;
+  justify-content: center;
+}
+
+.netflixImages {
+  display: flex;
+}
+
+.netflixHome {
+  height: 25rem;
+  padding: 10px;
+}
+
+.netflixVideoDetails {
+  height: 25rem;
+  padding: 10px;
+}
+
+.netflixDownloads {
+  height: 25rem;
+  padding: 10px;
+}
+
+.netflixDescription {
+  padding: 20px;
+}
+
+.netflixContent {
+  padding: 20px 0 20px 0;
+}
+
+.twitterContainer {
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+.twitterImages {
+  display: flex;
+}
+
+.twitterAccount {
+  height: 25rem;
+  padding: 10px;
+}
+
+.twitterProfile {
+  height: 25rem;
+  padding: 10px;
+}
+
+.twitterFeed {
+  height: 25rem;
+  padding: 10px;
+}
+
+.twitterContent {
+  padding: 20px 0 20px 0;
+}
+
+@media screen and (max-width: 990px) {
+  .peppContainer {
+    margin: 0 auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .peppHome {
+    height: 21rem;
+    padding: 10px;
+  }
+
+  .peppMaps {
+    height: 21rem;
+    padding: 10px;
+  }
+
+  .peppAnnouncements {
+    height: 21rem;
+    padding: 10px;
+  }
+
+  .netflixContainer {
+    margin: 0 auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .netflixHome {
+    height: 21rem;
+    padding: 10px;
+  }
+
+  .netflixVideoDetails {
+    height: 21rem;
+    padding: 10px;
+  }
+
+  .netflixDownloads {
+    height: 21rem;
+    padding: 10px;
+  }
+
+  .twitterContainer {
+    margin: 0 auto;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .twitterAccount {
+    height: 21rem;
+    padding: 10px;
+  }
+
+  .twitterProfile {
+    height: 21rem;
+    padding: 10px;
+  }
+
+  .twitterFeed {
+    height: 21rem;
+    padding: 10px;
+  }
+
+  .peppImages {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .peppImages {
+    display: flex;
+    flex-direction: column;
+  }
+  .netflixImages {
+    display: flex;
+    flex-direction: column;
+  }
+  .twitterImages {
+    display: flex;
+    flex-direction: column;
+  }
+}

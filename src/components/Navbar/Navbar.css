@@ -1,0 +1,76 @@
+.navbar {
+  background: rgb(10, 10, 10);
+  height: 5rem;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 2rem 2rem 5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.logoImage {
+  height: 4rem;
+}
+
+.navMenuList {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.navMenuList:hover {
+  color: white;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid;
+}
+
+.active {
+  color: white;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid;
+}
+
+.mobileMenuIcon {
+  display: none;
+  object-fit: cover;
+  height: 1.8rem;
+}
+
+.mobileMenu {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  height: fit-content;
+  min-width: 15rem;
+  background: rgb(10, 10, 10);
+  border-radius: 1rem;
+}
+
+.mobileMenuListItem {
+  color: white;
+  padding: 0.5rem 3rem;
+  margin: 0.25rem;
+  background: rgb(5, 5, 5);
+}
+
+@media screen and (max-width: 720px) {
+  .navbar {
+  }
+  .mobileMenuIcon {
+    display: flex;
+  }
+  .mobileMenu {
+    display: flex;
+  }
+
+  .navMenu {
+    display: none;
+  }
+}
