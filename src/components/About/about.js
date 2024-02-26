@@ -19,7 +19,9 @@ const About = () => {
           I'm Jo a developer from Los Angeles, CA. I got into coding during the
           pandemic when I tried to start an online business. The business didn't
           end up working out but I got really into building out the Wordpress
-          website.
+          website. About a month later I decided to bite the bullet and sign up
+          for a coding bootcamp and that was when when journey to coding really
+          kicked off.
         </p>
         <div className='aboutIcons'>
           <DiJsBadge size='30px' /> <DiReact size='30px' />

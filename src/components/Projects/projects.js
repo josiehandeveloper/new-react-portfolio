@@ -108,7 +108,8 @@ function Projects() {
           <p className='twitterContent'>
             Twitter Clone uses Firebase Authentication to onboard users onto the
             app. Users and tweets are saved into Firestore Database. Users can
-            create a personalized profile and
+            create a personalized profile and even add an image if they would
+            like to.
           </p>
           <a
             target='_blank'
