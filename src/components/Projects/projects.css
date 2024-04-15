@@ -122,6 +122,30 @@
   padding: 20px 0 20px 0;
 }
 
+
+.lyriksContainer {
+
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lyriksImages {
+  display: flex;
+}
+
+.lyriksHome {
+  height: 25rem;
+  padding: 10px;
+}
+
+.lyriksContent {
+  padding: 20px 0 20px 0;
+}
+
 @media screen and (max-width: 990px) {
   .peppContainer {
     margin: 0 auto;

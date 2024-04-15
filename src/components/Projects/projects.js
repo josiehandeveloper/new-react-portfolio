@@ -10,6 +10,7 @@ import netflixdownloads from '../../assets/netflix_downloads.png';
 import twitterfeed from '../../assets/twitter_feed.png';
 import twitteraccount from '../../assets/twitter_account.png';
 import twitterprofile from '../../assets/twitter_profile.png';
+import lyrikshome from '../../assets/lyriks.png'
 import { FaGithub } from 'react-icons/fa';
 
 import './projects.css';
@@ -121,6 +122,34 @@ function Projects() {
           </a>
         </div>
       </div>
+
+      <div className='lyriksContainer'>
+        <div className='lyriksImages'>
+          <img
+            src={lyrikshome}
+            alt='lyriks home'
+            className='lyriksHome'
+          />
+         
+        </div>
+        <div className='lyriksDescription'>
+          <h2 className='lyriksTitle'>Lyriks</h2>
+          <p className='lyriksContent'>
+           Lyriks is a Spotify like app that uses the Shazam Core API, Redux, and Tailwind. Users can use the search bar to look up songs and artists. There is a also a music player so users can sample out the songs. 
+          </p>
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://github.com/josiehandeveloper/TwitterClone'
+            className='githubIcon'
+          >
+            <FaGithub size='30px' color='white' />
+          </a>
+        </div>
+      </div>
+
+
+
     </div>
   );
 }
