@@ -140,7 +140,7 @@ function Projects() {
           <a
             target='_blank'
             rel='noopener noreferrer'
-            href='https://github.com/josiehandeveloper/TwitterClone'
+            href='https://github.com/josiehandeveloper/lyriks'
             className='githubIcon'
           >
             <FaGithub size='30px' color='white' />

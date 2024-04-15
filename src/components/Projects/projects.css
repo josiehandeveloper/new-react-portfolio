@@ -124,11 +124,9 @@
 
 
 .lyriksContainer {
-
   margin: 0 auto;
   padding: 1rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -138,7 +136,7 @@
 }
 
 .lyriksHome {
-  height: 25rem;
+  height: 20rem;
   padding: 10px;
 }
 
@@ -149,7 +147,7 @@
 @media screen and (max-width: 990px) {
   .peppContainer {
     margin: 0 auto;
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,11 +171,15 @@
 
   .netflixContainer {
     margin: 0 auto;
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .netflixDescription {
+    padding: 20px;
   }
   .netflixHome {
     height: 21rem;
@@ -196,7 +198,7 @@
 
   .twitterContainer {
     margin: 0 auto;
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -218,9 +220,37 @@
     padding: 10px;
   }
 
+
+  .twitterDescription {
+    padding: 20px;
+  }
+
   .peppImages {
     display: flex;
   }
+
+  .lyriksContainer {
+  margin: 0 auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .lyriksImages {
+    display: flex;
+  }
+
+  .lyriksHome {
+    height: 17rem;
+    padding: 10px;
+  }
+
+  .lyriksDescription {
+    padding: 20px;
+  }
+
 }
 
 @media screen and (max-width: 648px) {
@@ -233,6 +263,10 @@
     flex-direction: column;
   }
   .twitterImages {
+    display: flex;
+    flex-direction: column;
+  }
+  .lyriksImages {
     display: flex;
     flex-direction: column;
   }
